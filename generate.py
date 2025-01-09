@@ -6,6 +6,7 @@ import cv2
 # With the default tag image size (10pix), tags will not be clearly rendered due to rescaling and interpolation.
 TAG_SIZE_PIX = 2048
 THUMB_SIZE_PIX = 256
+TAG_COUNT = 16  # Generate this many tags, with IDs starting at zero.
 
 class Generator:
 	def __init__(self):
@@ -38,7 +39,7 @@ class Generator:
 
 def main():
 	generator = Generator()
-	for i in range(16):
+	for i in range(TAG_COUNT):
 		generator.generate('apriltag-imgs/tag36h11', 'tag36_11_%05d' % i, TAG_SIZE_PIX, THUMB_SIZE_PIX)
 
 
