@@ -2,6 +2,8 @@
 
 <img src="ss.png" width="712pix" />
 
+Fork of https://github.com/koide3/gazebo_apriltag that generates AprilTag models compatible with Gazebo Harmonic.
+
 Install models by running:
 ```bash
 cp -R gazebo_apriltag/models/* ~/.gazebo/models/
