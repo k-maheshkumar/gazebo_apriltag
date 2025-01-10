@@ -15,7 +15,7 @@
           <specular>0.5 0.5 0.5 1</specular>
           <pbr>
             <metal>
-              <albedo_map>materials/textures/tag36h11-0.png</albedo_map>
+              <albedo_map>materials/textures/tag36_11_00000.png</albedo_map>
               <roughness>0.5</roughness>
               <metalness>0.0</metalness>
             </metal>
