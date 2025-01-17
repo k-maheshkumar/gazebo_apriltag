@@ -13,3 +13,5 @@ cp -R gazebo_apriltag/models/* ~/.gazebo/models/
 
 Or, add the full path to `gazebo_apriltag/models/` to the `GZ_SIM_RESOURCE_PATH` environment variable.
 You can then insert them into your gazebo world via the Resource Spawner.
+
+H/T to [koide3](https://github.com/koide3/gazebo_apriltag) for creating the original version of this repo.
